@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+    <TextView 
+        android:text="めも" 
+        android:layout_height="wrap_content"
+        android:id="@+id/memo"
+        android:layout_width="fill_parent" />
+    <TextView 
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/address"
+        android:text="日時"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:id="@+id/tel" />
+  </RelativeLayout>
+<ImageView android:layout_width="fill_parent"
+    android:layout_height="2dip" android:src="@android:drawable/divider_horizontal_dark"
+    android:scaleType="fitXY" android:gravity="fill_horizontal" />
+  <TextView android:text="@string/memo_empty" android:id="@+id/android:empty"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+  </TextView>
+  <ListView android:layout_height="wrap_content" android:id="@android:id/list"
+    android:layout_width="wrap_content" android:layout_weight="1"></ListView>
+  <Button android:id="@+id/insert" android:layout_height="wrap_content"
+    android:text="@string/memo_add" android:layout_width="fill_parent"></Button>
+</LinearLayout>

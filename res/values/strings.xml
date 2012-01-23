@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">猫めも。</string>
+	<!-- MemoActivity用 -->
+	<string name="memo_empty">メモが登録されていません</string>
+	<string name="memo_add">メモを追加する</string>
+	<string name="confirm_memo_delete_title">削除確認</string>
+	<string name="confirm_memo_delete">メモを削除しますか？</string>
+	<string name="yes">はい</string>
+	<string name="no">いいえ</string>
+	
+	<!-- MemoInputActivity用 -->
+	<string name="add">追加</string>
+	<string name="memo_edit_hint">お店のメモを入力してください</string>
+</resources>
